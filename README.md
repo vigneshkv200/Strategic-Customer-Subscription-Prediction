@@ -109,10 +109,3 @@ Using **SHAP (SHapley Additive exPlanations)**, we moved past black-box metrics 
 
 ---
 
-##  Project Key Takeaways & Proof of Work
-1. **Data Leakage Elimination**: Ensured real-world viability by removing `duration` early.
-2. **Systematic Experimentation**: Automated metric logging with **MLflow** to prevent "notebook chaos" and guarantee reproducibility.
-3. **Domain-Driven Feature Engineering**: Generated an absolute **8-point F1-score increase** through deliberate, logical features rather than arbitrary mathematical transformations.
-4. **Business-Informed Modeling**: Demonstrated that model selection (XGBoost) and threshold configuration (0.24) are dual parameters governed directly by operational constraints and campaign economics.
-print("✔ README.md successfully created in the print(f"Project Name Proposed: {project_name}")
-print(f"Project Description Proposed: {project_description}")
